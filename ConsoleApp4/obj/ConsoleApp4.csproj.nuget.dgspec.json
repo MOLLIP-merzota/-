@@ -42,6 +42,30 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Telegram.Bot": {
+              "target": "Package",
+              "version": "[22.2.0, )"
+            },
+            "Telegram.BotAPI": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Telegram.Bots.Extensions.Polling": {
+              "target": "Package",
+              "version": "[5.9.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

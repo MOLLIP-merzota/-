@@ -1,0 +1,92 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
+  <diagram name="Страница — 1" id="HoShklp-umJkk2sWkYRa">
+    <mxGraphModel>
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Автоматизированная информационная система" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="8" y="8" width="2226" height="511" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="Сетевые соединения" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="2">
+          <mxGeometry x="43" y="202" width="1434" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="User1 -- Server1" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="3">
+          <mxGeometry x="58" y="43" width="145" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="User2 -- Server1" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="3">
+          <mxGeometry x="303" y="43" width="145" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Server1 -- DB1" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="3">
+          <mxGeometry x="549" y="43" width="132" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="Server2 -- DB2" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="3">
+          <mxGeometry x="781" y="43" width="132" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="DB1 -- Server2" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="3">
+          <mxGeometry x="1014" y="43" width="132" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="Server2 -- User4" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="3">
+          <mxGeometry x="1246" y="43" width="145" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="3" source="4" target="5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1.01;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="3" source="5" target="6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="12" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="3" source="6" target="7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1.01;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="3" source="7" target="8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="3" source="8" target="9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Базы данных" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="2">
+          <mxGeometry x="1527" y="150" width="209" height="228" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="Database 1" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="15">
+          <mxGeometry x="58" y="43" width="109" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="Database 2" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="15">
+          <mxGeometry x="58" y="147" width="109" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="Серверы" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="2">
+          <mxGeometry x="1785" y="150" width="189" height="228" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="Server 1" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="18">
+          <mxGeometry x="58" y="43" width="89" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="Server 2" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="18">
+          <mxGeometry x="58" y="147" width="89" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="Пользователи" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="2">
+          <mxGeometry x="2024" y="46" width="175" height="436" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="User 1" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="21">
+          <mxGeometry x="58" y="43" width="75" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="User 2" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="21">
+          <mxGeometry x="58" y="147" width="75" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="User 3" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="21">
+          <mxGeometry x="58" y="251" width="75" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="User 4" style="rounded=1;arcSize=20;strokeWidth=2" vertex="1" parent="21">
+          <mxGeometry x="58" y="355" width="75" height="54" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

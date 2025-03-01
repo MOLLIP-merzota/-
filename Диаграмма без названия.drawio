@@ -18,7 +18,7 @@
         <mxCell id="h6UZVJmKNb4CSLtt_aIw-2" value="Диспетчер" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="890" y="50" width="40" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="h6UZVJmKNb4CSLtt_aIw-3" value="Бугалтерия" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="h6UZVJmKNb4CSLtt_aIw-3" value="Налоговая" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="740" y="550" width="40" height="80" as="geometry" />
         </mxCell>
         <mxCell id="h6UZVJmKNb4CSLtt_aIw-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="h6UZVJmKNb4CSLtt_aIw-4" target="h6UZVJmKNb4CSLtt_aIw-48">

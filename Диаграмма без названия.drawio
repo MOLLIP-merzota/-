@@ -611,7 +611,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ibJ70IcBAII2oboBYzcB" name="Страница — 3">
-    <mxGraphModel dx="2055" dy="1957" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2567" dy="2286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -735,6 +735,39 @@
         </mxCell>
         <mxCell id="5BizqeV3EwJiXlDEx9Cg-1" value="Данные о заявке" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="-1120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2iPI3eJMo2089OawNqV-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;dashed=1;dashPattern=8 8;endArrow=none;startFill=0;" edge="1" parent="1" source="G2iPI3eJMo2089OawNqV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1169.666666666667" y="-200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G2iPI3eJMo2089OawNqV-1" value="Сервер" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1110" y="-1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2iPI3eJMo2089OawNqV-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endArrow=none;startFill=0;dashed=1;dashPattern=8 8;strokeWidth=3;" edge="1" parent="1" source="G2iPI3eJMo2089OawNqV-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="959.666666666667" y="-200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G2iPI3eJMo2089OawNqV-2" value="Интерфейс" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="-1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2iPI3eJMo2089OawNqV-3" value="Пользователь" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="-1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2iPI3eJMo2089OawNqV-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;dashed=1;dashPattern=8 8;endArrow=none;startFill=0;" edge="1" parent="1" source="G2iPI3eJMo2089OawNqV-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1379.666666666667" y="-190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G2iPI3eJMo2089OawNqV-4" value="БД" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="-1040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="G2iPI3eJMo2089OawNqV-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashPattern=8 8;jumpSize=16;startSize=51;endSize=50;targetPerimeterSpacing=50;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="749.17" y="-200" as="sourcePoint" />
+            <mxPoint x="749.17" y="-980" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
